@@ -1,25 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-10-14T16:30:49 GST" name="Default suite" finished-at="2024-10-14T16:31:14 GST" duration-ms="25052">
+  <suite started-at="2024-10-14T16:53:19 GST" name="Default suite" finished-at="2024-10-14T16:53:46 GST" duration-ms="26849">
     <groups>
     </groups>
-    <test started-at="2024-10-14T16:30:49 GST" name="Default test" finished-at="2024-10-14T16:31:14 GST" duration-ms="25052">
-      <class name="MargoExpress.Mobile.Ecommerce_Tc_01">
-        <test-method is-config="true" signature="ConfigureAppium()[pri:0, instance:MargoExpress.Mobile.Ecommerce_Tc_01@35dab4eb]" started-at="2024-10-14T16:30:49 GST" name="ConfigureAppium" finished-at="2024-10-14T16:31:00 GST" duration-ms="11211" status="PASS">
+    <test started-at="2024-10-14T16:53:19 GST" name="Default test" finished-at="2024-10-14T16:53:46 GST" duration-ms="26849">
+      <class name="MargoExpress.Mobile.Ecommerce_Tc_2">
+        <test-method is-config="true" signature="ConfigureAppium()[pri:0, instance:MargoExpress.Mobile.Ecommerce_Tc_2@3f191845]" started-at="2024-10-14T16:53:19 GST" name="ConfigureAppium" finished-at="2024-10-14T16:53:29 GST" duration-ms="9274" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ConfigureAppium -->
-        <test-method signature="FillForm()[pri:0, instance:MargoExpress.Mobile.Ecommerce_Tc_01@35dab4eb]" started-at="2024-10-14T16:31:00 GST" name="FillForm" finished-at="2024-10-14T16:31:14 GST" duration-ms="13276" status="PASS">
+        <test-method signature="FillForm()[pri:0, instance:MargoExpress.Mobile.Ecommerce_Tc_2@3f191845]" started-at="2024-10-14T16:53:29 GST" name="FillForm" finished-at="2024-10-14T16:53:42 GST" duration-ms="13640" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- FillForm -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:MargoExpress.Mobile.Ecommerce_Tc_01@35dab4eb]" started-at="2024-10-14T16:31:14 GST" name="teardown" finished-at="2024-10-14T16:31:14 GST" duration-ms="532" status="PASS">
+        <test-method signature="selectProduct()[pri:0, instance:MargoExpress.Mobile.Ecommerce_Tc_2@3f191845]" started-at="2024-10-14T16:53:42 GST" name="selectProduct" finished-at="2024-10-14T16:53:46 GST" duration-ms="3360" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectProduct -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:MargoExpress.Mobile.Ecommerce_Tc_2@3f191845]" started-at="2024-10-14T16:53:46 GST" name="teardown" finished-at="2024-10-14T16:53:46 GST" duration-ms="542" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-      </class> <!-- MargoExpress.Mobile.Ecommerce_Tc_01 -->
+      </class> <!-- MargoExpress.Mobile.Ecommerce_Tc_2 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
