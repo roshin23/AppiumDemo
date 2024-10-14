@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="MargoExpress.Mobile.SwipeDemo">
+      <class name="MargoExpress.Mobile.Ecommerce_Tc_01">
         <methods>
           <include name="teardown"/>
+          <include name="FillForm"/>
           <include name="ConfigureAppium"/>
-          <include name="DragDropTest"/>
         </methods>
-      </class> <!-- MargoExpress.Mobile.SwipeDemo -->
+      </class> <!-- MargoExpress.Mobile.Ecommerce_Tc_01 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

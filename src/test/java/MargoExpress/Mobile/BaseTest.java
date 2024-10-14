@@ -55,7 +55,7 @@ public class BaseTest {
 			    "elementId", ((RemoteWebElement) ele).getId(),"duration", 2000));
 	}
 	
-	public void scrollToElement(WebElement ele) throws InterruptedException
+	public void scrollToElement(String ele) throws InterruptedException
 	{
 		//scroll using android ui automator, where to scrol; is know prior
 		driver.findElement(AppiumBy.androidUIAutomator("new UiScrollable(new UiSelector()).scrollIntoView(ele);"));
