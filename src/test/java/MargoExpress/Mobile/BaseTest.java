@@ -30,16 +30,19 @@ public class BaseTest {
 	{
 		//AndroidDriver, Ios driver
 		//Appium code --> Appium Server --> Mobile
-		
-		service = new AppiumServiceBuilder().withAppiumJS(new File("C://Users//xps//AppData//Roaming//npm//node_modules//appium//build//lib//main.js"))
-				.withIPAddress("127.0.0.1").usingPort(4723).build();
-		
+
+//		service = new AppiumServiceBuilder().withAppiumJS(new File("C://Users//xps//AppData//Roaming//npm//node_modules//appium//build//lib//main.js"))
+//				.withIPAddress("127.0.0.1").usingPort(4723).build();
+		service = new AppiumServiceBuilder().withAppiumJS(new File("C://Users//roshin.surendran//AppData//Roaming//npm//node_modules//appium//build//lib/main.js"))
+					.withIPAddress("").usingPort(4723).build();
 		service.start();	
 		
 		UiAutomator2Options options = new UiAutomator2Options();
 		options.setDeviceName("Pixel 8 Pro Emulator");
-		options.setApp("C://Users//xps//eclipse-workspace//Mobile//src//test//java//resources//ApiDemos-debug.apk");
-		
+//		options.setApp("C://Users//roshin.surendran//eclipse-workspace//mobile//src//test//java//resources//app-release.apk");
+//		options.setApp(System.getProperty("user.dir")+"//src//test//java//resources//ApiDemos-debug.apk");
+		options.setApp(System.getProperty("user.dir")+"//src//test//java//resources//General-Store.apk");
+
 		
 		driver = new AndroidDriver(new URI("http://127.0.0.1:4723").toURL(), options);		
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
