@@ -6,8 +6,8 @@
       <class name="MargoExpress.Mobile.Ecommerce_Tc_2">
         <methods>
           <include name="teardown"/>
-          <include name="selectProduct"/>
-          <include name="FillForm"/>
+          <include name="verifyProductsAddedinCart"/>
+          <include name="verifyTotalSum"/>
           <include name="ConfigureAppium"/>
         </methods>
       </class> <!-- MargoExpress.Mobile.Ecommerce_Tc_2 -->

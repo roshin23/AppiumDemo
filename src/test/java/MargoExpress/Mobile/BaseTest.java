@@ -5,7 +5,9 @@ import java.net.MalformedURLException;
 import java.net.URI;
 import java.net.URISyntaxException;
 import java.time.Duration;
+import java.util.List;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.remote.RemoteWebElement;
@@ -62,6 +64,52 @@ public class BaseTest {
 		Thread.sleep(2000);
 	}
 	
+	public void scrollToProdListAndAddToCart(String productName, List<WebElement> prodNameElem, String addToCartElem) {
+	    // Advanced for loop
+	    for (WebElement element : prodNameElem) {
+	        String productNameText = element.getText();
+	        if (productNameText.equalsIgnoreCase(productName)) {
+	            try {
+	                List<WebElement> addToCartBtn = driver.findElements(By.xpath(addToCartElem));
+	                if (!addToCartBtn.isEmpty()) {
+	                    addToCartBtn.get(0).click(); // Click the first matching button
+	                    System.out.println("Product added to cart: " + productName);
+	                } else {
+	                    System.out.println("Add to Cart button not found for product: " + productName);
+	                }
+	            } catch (Exception e) {
+	                System.out.println("An error occurred while adding the product to the cart: " + e.getMessage());
+	            }
+	            break; // Exit the loop after adding the product to the cart
+	        }
+	    }
+	}
+	
+//	public void scrollToProdListAndAddtocard(String productName, List<WebElement>  ProdNameElem, String  AddtoCartElem)
+//	{
+//		//advanced for loop
+//		for (WebElement element : ProdNameElem)
+//		{
+//			String ProductName = element.getAttribute("text");
+//			if (ProductName.equalsIgnoreCase(productName))
+//				{
+//				List<WebElement> AddtoCartbtn = driver.findElements(By.xpath(AddtoCartElem));
+//					AddtoCartbtn.get().click();
+//				}
+//		}
+		//traditional for loop
+//		int i=0;
+//		for (i=0;i<=productsEle.size();i++)
+//		{
+//			String productName = driver.findElements(By.xpath("//android.widget.TextView")).get(i).getAttribute("text");
+//					
+//					if (productName.equalsIgnoreCase("Jordan 6 Rings"))
+//					{
+//						driver.findElements(By.xpath("(//android.widget.TextView[@resource-id=\"com.androidsample.generalstore:id/productAddCart\"])")).get(i).click();
+//					}
+//		}
+	
+	
 	public void scrollTOEndAction()
 	{
 		boolean canScrollMore;
@@ -102,5 +150,16 @@ public class BaseTest {
 		driver.quit();
 		service.stop();
 	}
+    public Double sum = 0.0;
+
+    public void calculateSum(List<WebElement> cartitemspriceele) {
+        for (WebElement item : cartitemspriceele) {
+            String itemAmount = item.getText();
+            itemAmount = itemAmount.substring(1); // Remove the currency symbol
+            Double price = Double.parseDouble(itemAmount);
+            sum += price;
+            System.out.println(sum);
+        }
+    }
 
 }
