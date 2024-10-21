@@ -2,32 +2,32 @@
 <testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-10-21T13:02:08 GST" name="Default suite" finished-at="2024-10-21T13:02:44 GST" duration-ms="36061">
+  <suite started-at="2024-10-21T22:05:42 GST" name="Default suite" finished-at="2024-10-21T22:06:23 GST" duration-ms="41522">
     <groups>
     </groups>
-    <test started-at="2024-10-21T13:02:08 GST" name="Default test" finished-at="2024-10-21T13:02:44 GST" duration-ms="36061">
-      <class name="MargoExpress.Mobile.Ecommerce_Tc_3">
-        <test-method is-config="true" signature="ConfigureAppium()[pri:0, instance:MargoExpress.Mobile.Ecommerce_Tc_3@72035809]" started-at="2024-10-21T13:02:08 GST" name="ConfigureAppium" finished-at="2024-10-21T13:02:21 GST" duration-ms="12724" status="PASS">
+    <test started-at="2024-10-21T22:05:42 GST" name="Default test" finished-at="2024-10-21T22:06:23 GST" duration-ms="41522">
+      <class name="MargoExpress.Mobile.Ecommerce_Tc_4_Hybrid">
+        <test-method is-config="true" signature="ConfigureAppium()[pri:0, instance:MargoExpress.Mobile.Ecommerce_Tc_4_Hybrid@19932c16]" started-at="2024-10-21T22:05:42 GST" name="ConfigureAppium" finished-at="2024-10-21T22:05:55 GST" duration-ms="12876" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ConfigureAppium -->
-        <test-method signature="FillForm()[pri:0, instance:MargoExpress.Mobile.Ecommerce_Tc_3@72035809]" started-at="2024-10-21T13:02:21 GST" name="FillForm" finished-at="2024-10-21T13:02:34 GST" duration-ms="13205" status="PASS">
+        <test-method signature="FillForm()[pri:0, instance:MargoExpress.Mobile.Ecommerce_Tc_4_Hybrid@19932c16]" started-at="2024-10-21T22:05:55 GST" name="FillForm" finished-at="2024-10-21T22:06:11 GST" duration-ms="16273" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- FillForm -->
-        <test-method signature="selectProduct()[pri:0, instance:MargoExpress.Mobile.Ecommerce_Tc_3@72035809]" started-at="2024-10-21T13:02:34 GST" name="selectProduct" finished-at="2024-10-21T13:02:37 GST" duration-ms="2922" status="PASS">
+        <test-method signature="selectProduct()[pri:0, instance:MargoExpress.Mobile.Ecommerce_Tc_4_Hybrid@19932c16]" started-at="2024-10-21T22:06:11 GST" name="selectProduct" finished-at="2024-10-21T22:06:14 GST" duration-ms="3530" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- selectProduct -->
-        <test-method signature="verifyProductsAddedinCart()[pri:0, instance:MargoExpress.Mobile.Ecommerce_Tc_3@72035809]" started-at="2024-10-21T13:02:37 GST" name="verifyProductsAddedinCart" finished-at="2024-10-21T13:02:44 GST" duration-ms="6420" status="PASS">
+        <test-method signature="verifyProductsAddedinCart()[pri:0, instance:MargoExpress.Mobile.Ecommerce_Tc_4_Hybrid@19932c16]" started-at="2024-10-21T22:06:14 GST" name="verifyProductsAddedinCart" finished-at="2024-10-21T22:06:22 GST" duration-ms="7703" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyProductsAddedinCart -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:MargoExpress.Mobile.Ecommerce_Tc_3@72035809]" started-at="2024-10-21T13:02:44 GST" name="teardown" finished-at="2024-10-21T13:02:44 GST" duration-ms="751" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:MargoExpress.Mobile.Ecommerce_Tc_4_Hybrid@19932c16]" started-at="2024-10-21T22:06:22 GST" name="teardown" finished-at="2024-10-21T22:06:23 GST" duration-ms="1088" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-      </class> <!-- MargoExpress.Mobile.Ecommerce_Tc_3 -->
+      </class> <!-- MargoExpress.Mobile.Ecommerce_Tc_4_Hybrid -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

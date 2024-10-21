@@ -2,7 +2,6 @@ package MargoExpress.Mobile;
 
 import java.time.Duration;
 import java.util.List;
-import java.util.Set;
 
 import javax.lang.model.element.Element;
 
@@ -16,7 +15,7 @@ import org.testng.annotations.Test;
 
 import io.appium.java_client.AppiumBy;
 
-public class Ecommerce_Tc_3 extends BaseTest {
+public class Ecommerce_Tc_4_Hybrid extends BaseTest {
 	
 	@Test
 	public void FillForm() throws InterruptedException
@@ -82,16 +81,6 @@ public class Ecommerce_Tc_3 extends BaseTest {
        driver.findElement(By.id("android:id/button1")).click();
        driver.findElement(AppiumBy.className("android.widget.CheckBox")).click();
        driver.findElement(By.id("com.androidsample.generalstore:id/btnProceed")).click();
-//       WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(6000));
-//       wait.until(ExpectedConditions.invisibilityOf(readTandcond));
-       
-       Thread.sleep(10000);
-       //Hybrid  - google page
-       Set<String> contentHandles =  driver.getContextHandles();
-       
-       for (String ContextName : contentHandles) {
-    	   System.out.println(ContextName);
-       }
-       driver.context("WEBVIEW_com.androidsample.generalstore");
+       Thread.sleep(2000);
 	}
 }
