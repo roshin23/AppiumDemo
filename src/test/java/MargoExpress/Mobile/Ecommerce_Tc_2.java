@@ -99,7 +99,7 @@ public class Ecommerce_Tc_2 extends BaseTest {
 	
 	@Test
     // Method to get the stored sum
-    public Double getSum() {
+    public int getSum() {
         return sum;
     }
     

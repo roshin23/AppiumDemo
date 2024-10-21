@@ -150,7 +150,7 @@ public class BaseTest {
 		driver.quit();
 		service.stop();
 	}
-    public Double sum = 0.0;
+    public int sum = 0;
 
     public void calculateSum(List<WebElement> cartitemspriceele) {
         for (WebElement item : cartitemspriceele) {
@@ -161,5 +161,10 @@ public class BaseTest {
             System.out.println(sum);
         }
     }
-
+    
+    public double getFormattedAmount(String Amount)
+    {
+    	double Price = Double.parseDouble(Amount.substring(1));
+    	return Price;
+    }
 }
