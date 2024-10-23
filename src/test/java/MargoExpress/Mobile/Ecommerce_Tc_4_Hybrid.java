@@ -2,10 +2,12 @@ package MargoExpress.Mobile;
 
 import java.time.Duration;
 import java.util.List;
+import java.util.Set;
 
 import javax.lang.model.element.Element;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -14,6 +16,8 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import io.appium.java_client.AppiumBy;
+import io.appium.java_client.android.nativekey.AndroidKey;
+import io.appium.java_client.android.nativekey.KeyEvent;
 
 public class Ecommerce_Tc_4_Hybrid extends BaseTest {
 	
@@ -81,6 +85,24 @@ public class Ecommerce_Tc_4_Hybrid extends BaseTest {
        driver.findElement(By.id("android:id/button1")).click();
        driver.findElement(AppiumBy.className("android.widget.CheckBox")).click();
        driver.findElement(By.id("com.androidsample.generalstore:id/btnProceed")).click();
-       Thread.sleep(2000);
+       Thread.sleep(8000);
+       
+       //Hybrid 
+       Set<String> contexts = driver.getContextHandles();
+       
+//       for (int i=0;i<=contextnames.size();i++)
+//       {
+//    	   System.out.println(i);
+//       }
+       for (String contextName : contexts)
+       {
+    	   System.out.println(contextName);
+       }
+       //Switch to webview
+       driver.context("WEBVIEW_com.androidsample.generalstore");
+       driver.findElement(By.name("q")).sendKeys("Roshin");
+       driver.findElement(By.name("q")).sendKeys(Keys.ENTER);
+       driver.pressKey(new KeyEvent(AndroidKey.BACK));
+       driver.context("NATIVE_APP");
 	}
 }
