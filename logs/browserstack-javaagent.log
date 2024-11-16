@@ -1,0 +1,251 @@
+11:01:15.657 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.26.0
+11:01:15.660 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 9.3.0
+11:01:15.865 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+11:01:15.865 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\xps\eclipse-workspace\Mobile\browserstack.yml
+11:01:15.926 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+11:01:16.330 [main] INFO  c.browserstack.BrowserStackJavaAgent - Using app: [bs://bbc826db0c8097df94657a3d86855b1047943a68]
+11:01:16.330 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+11:01:21.520 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+11:01:25.966 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting Percy......
+11:01:26.660 [main] ERROR com.browserstack.PercyFactory - Error fetching percy token for project : %s.
+java.lang.IllegalArgumentException: No enum constant com.browserstack.percy.PercyCaptureMode.NULL
+	at java.base/java.lang.Enum.valueOf(Enum.java:293)
+	at com.browserstack.percy.PercyCaptureMode.valueOf(Unknown Source)
+	at com.browserstack.percy.PercyCaptureMode.fromString(Unknown Source)
+	at com.browserstack.PercyFactory.a(Unknown Source)
+	at com.browserstack.PercyFactory.<init>(Unknown Source)
+	at com.browserstack.PercyFactory.a(Unknown Source)
+	at com.browserstack.PercyFactory.createInstance(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.c(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:560)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:572)
+11:01:26.661 [main] ERROR com.browserstack.PercyFactory - Initialization of percy failed java.lang.NullPointerException: Cannot invoke "String.split(String)" because the return value of "com.browserstack.PercyFactory.a(com.browserstack.config.BrowserStackConfig)" is null.
+11:01:26.661 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+11:01:35.369 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+11:02:30.534 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/l7o8ajh8bejx3xljyb3jc2mojsrlu7quwve3xizx to view build report, insights, and many more debugging information all at one place!
+
+11:02:30.535 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+11:02:34.977 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://app-automate.browserstack.com/dashboard/v2/builds/36cf82a4e3a6f70545f45e3d11f4aa00089114ee
+11:02:34.977 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+11:04:31.323 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.26.0
+11:04:31.326 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 9.3.0
+11:04:31.542 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+11:04:31.543 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\xps\eclipse-workspace\Mobile\browserstack.yml
+11:04:31.601 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+11:04:32.148 [main] INFO  c.browserstack.BrowserStackJavaAgent - Using app: [bs://bbc826db0c8097df94657a3d86855b1047943a68]
+11:04:32.148 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+11:04:36.844 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+11:04:37.934 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting Percy......
+11:04:38.602 [main] ERROR com.browserstack.PercyFactory - Error fetching percy token for project : %s.
+java.lang.IllegalArgumentException: No enum constant com.browserstack.percy.PercyCaptureMode.NULL
+	at java.base/java.lang.Enum.valueOf(Enum.java:293)
+	at com.browserstack.percy.PercyCaptureMode.valueOf(Unknown Source)
+	at com.browserstack.percy.PercyCaptureMode.fromString(Unknown Source)
+	at com.browserstack.PercyFactory.a(Unknown Source)
+	at com.browserstack.PercyFactory.<init>(Unknown Source)
+	at com.browserstack.PercyFactory.a(Unknown Source)
+	at com.browserstack.PercyFactory.createInstance(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.c(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:560)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:572)
+11:04:38.603 [main] ERROR com.browserstack.PercyFactory - Initialization of percy failed java.lang.NullPointerException: Cannot invoke "String.split(String)" because the return value of "com.browserstack.PercyFactory.a(com.browserstack.config.BrowserStackConfig)" is null.
+11:04:38.603 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+11:04:44.424 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+11:05:34.129 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/ucocfaaonr3ttqmlyvtbozkv7hvkwryna4ihzdhf to view build report, insights, and many more debugging information all at one place!
+
+11:05:34.130 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+11:05:38.851 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://app-automate.browserstack.com/dashboard/v2/builds/cce0328a64192e5f99321fd9238209935ee3b2ed
+11:05:38.852 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+11:07:29.519 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.26.0
+11:07:29.522 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 9.3.0
+11:07:29.728 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+11:07:29.728 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\xps\eclipse-workspace\Mobile\browserstack.yml
+11:07:29.784 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+11:07:30.203 [main] INFO  c.browserstack.BrowserStackJavaAgent - Using app: [bs://bbc826db0c8097df94657a3d86855b1047943a68]
+11:07:30.203 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+11:07:35.079 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+11:07:36.208 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting Percy......
+11:07:36.967 [main] ERROR com.browserstack.PercyFactory - Error fetching percy token for project : %s.
+java.lang.IllegalArgumentException: No enum constant com.browserstack.percy.PercyCaptureMode.NULL
+	at java.base/java.lang.Enum.valueOf(Enum.java:293)
+	at com.browserstack.percy.PercyCaptureMode.valueOf(Unknown Source)
+	at com.browserstack.percy.PercyCaptureMode.fromString(Unknown Source)
+	at com.browserstack.PercyFactory.a(Unknown Source)
+	at com.browserstack.PercyFactory.<init>(Unknown Source)
+	at com.browserstack.PercyFactory.a(Unknown Source)
+	at com.browserstack.PercyFactory.createInstance(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.c(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:560)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:572)
+11:07:36.968 [main] ERROR com.browserstack.PercyFactory - Initialization of percy failed java.lang.NullPointerException: Cannot invoke "String.split(String)" because the return value of "com.browserstack.PercyFactory.a(com.browserstack.config.BrowserStackConfig)" is null.
+11:07:36.968 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+11:07:42.577 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+11:08:30.783 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/tv0y26m57nauy8dl1gcvdrymrgagz4r8u1ytgks2 to view build report, insights, and many more debugging information all at one place!
+
+11:08:30.784 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+11:08:35.494 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://app-automate.browserstack.com/dashboard/v2/builds/71dcf735aa7abffb6239502a12402e03bd9351d9
+11:08:35.494 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+11:15:00.913 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled because framework detected is null. We currently support frameworks testng, cucumber-testng & serenity
+11:15:14.772 [main] DEBUG c.browserstack.utils.LogReportingAPI - 
+[2024-11-05T07:15:14.759799700Z][ OBSERVABILITY ] Exception in populating data for Test Disabled : java.lang.NullPointerException: Cannot invoke "String.contains(java.lang.CharSequence)" because the return value of "com.browserstack.config.BrowserStackConfig.getFramework()" is null
+	at com.browserstack.testNgListeners.TmpSuiteListener.onFinish(Unknown Source)
+	at org.testng.TestRunner.fireEvent(TestRunner.java:873)
+	at org.testng.TestRunner.afterRun(TestRunner.java:828)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+
+
+11:15:16.129 [main] DEBUG c.b.utils.FunnelInstrumentation - API Event Observability_Crash_Report_Upload response - OK
+11:15:27.607 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.26.0
+11:15:27.612 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 9.3.0
+11:15:28.015 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+11:15:28.016 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\xps\eclipse-workspace\Mobile\browserstack.yml
+11:15:28.124 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+11:15:28.783 [main] INFO  c.browserstack.BrowserStackJavaAgent - Using app: [bs://bbc826db0c8097df94657a3d86855b1047943a68]
+11:15:28.783 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+11:15:33.230 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+11:15:34.516 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting Percy......
+11:15:35.310 [main] ERROR com.browserstack.PercyFactory - Error fetching percy token for project : %s.
+java.lang.IllegalArgumentException: No enum constant com.browserstack.percy.PercyCaptureMode.NULL
+	at java.base/java.lang.Enum.valueOf(Enum.java:293)
+	at com.browserstack.percy.PercyCaptureMode.valueOf(Unknown Source)
+	at com.browserstack.percy.PercyCaptureMode.fromString(Unknown Source)
+	at com.browserstack.PercyFactory.a(Unknown Source)
+	at com.browserstack.PercyFactory.<init>(Unknown Source)
+	at com.browserstack.PercyFactory.a(Unknown Source)
+	at com.browserstack.PercyFactory.createInstance(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.c(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:560)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:572)
+11:15:35.311 [main] ERROR com.browserstack.PercyFactory - Initialization of percy failed java.lang.NullPointerException: Cannot invoke "String.split(String)" because the return value of "com.browserstack.PercyFactory.a(com.browserstack.config.BrowserStackConfig)" is null.
+11:15:35.311 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+11:15:44.179 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+11:16:39.498 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/5gf8c636fgoouh00itr5lovi6sdqnoutk7boe4bs to view build report, insights, and many more debugging information all at one place!
+
+11:16:39.498 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+11:16:45.485 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://app-automate.browserstack.com/dashboard/v2/builds/52d92754a4c209190baea42718e9c7d23a90f36a
+11:16:45.485 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+11:17:02.588 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.26.0
+11:17:02.593 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 9.3.0
+11:17:03.005 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+11:17:03.007 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\xps\eclipse-workspace\Mobile\browserstack.yml
+11:17:03.096 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+11:17:03.795 [main] INFO  c.browserstack.BrowserStackJavaAgent - Using app: [bs://bbc826db0c8097df94657a3d86855b1047943a68]
+11:17:03.796 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+11:17:08.559 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+11:17:09.905 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting Percy......
+11:17:10.620 [main] ERROR com.browserstack.PercyFactory - Error fetching percy token for project : %s.
+java.lang.IllegalArgumentException: No enum constant com.browserstack.percy.PercyCaptureMode.NULL
+	at java.base/java.lang.Enum.valueOf(Enum.java:293)
+	at com.browserstack.percy.PercyCaptureMode.valueOf(Unknown Source)
+	at com.browserstack.percy.PercyCaptureMode.fromString(Unknown Source)
+	at com.browserstack.PercyFactory.a(Unknown Source)
+	at com.browserstack.PercyFactory.<init>(Unknown Source)
+	at com.browserstack.PercyFactory.a(Unknown Source)
+	at com.browserstack.PercyFactory.createInstance(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.c(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:560)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:572)
+11:17:10.620 [main] ERROR com.browserstack.PercyFactory - Initialization of percy failed java.lang.NullPointerException: Cannot invoke "String.split(String)" because the return value of "com.browserstack.PercyFactory.a(com.browserstack.config.BrowserStackConfig)" is null.
+11:17:10.620 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+11:17:16.957 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+11:18:05.790 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/3ohpmky932giq0mw8rgxzjroi9bwjocotv9trxaq to view build report, insights, and many more debugging information all at one place!
+
+11:18:05.790 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+11:18:11.032 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://app-automate.browserstack.com/dashboard/v2/builds/1c6b2477b9501bbe84b9d93b51db2e7c8c5cbf56
+11:18:11.032 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+11:18:21.018 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.26.0
+11:18:21.022 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 9.3.0
+11:18:21.311 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+11:18:21.312 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\xps\eclipse-workspace\Mobile\browserstack.yml
+11:18:21.392 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+11:18:52.846 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.26.0
+11:18:52.850 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 9.3.0
+11:18:53.202 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+11:18:53.204 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\xps\eclipse-workspace\Mobile\browserstack.yml
+11:18:53.292 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+11:18:53.968 [main] INFO  c.browserstack.BrowserStackJavaAgent - Using app: [bs://bbc826db0c8097df94657a3d86855b1047943a68]
+11:18:53.968 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+11:18:58.963 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+11:19:00.145 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting Percy......
+11:19:00.909 [main] ERROR com.browserstack.PercyFactory - Error fetching percy token for project : %s.
+java.lang.IllegalArgumentException: No enum constant com.browserstack.percy.PercyCaptureMode.NULL
+	at java.base/java.lang.Enum.valueOf(Enum.java:293)
+	at com.browserstack.percy.PercyCaptureMode.valueOf(Unknown Source)
+	at com.browserstack.percy.PercyCaptureMode.fromString(Unknown Source)
+	at com.browserstack.PercyFactory.a(Unknown Source)
+	at com.browserstack.PercyFactory.<init>(Unknown Source)
+	at com.browserstack.PercyFactory.a(Unknown Source)
+	at com.browserstack.PercyFactory.createInstance(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.c(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:560)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:572)
+11:19:00.910 [main] ERROR com.browserstack.PercyFactory - Initialization of percy failed java.lang.NullPointerException: Cannot invoke "String.split(String)" because the return value of "com.browserstack.PercyFactory.a(com.browserstack.config.BrowserStackConfig)" is null.
+11:19:00.910 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+11:19:07.908 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+11:20:06.223 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/m1ssswc8qseoirnp3fd7gkhy6msuul3b9iipub6m to view build report, insights, and many more debugging information all at one place!
+
+11:20:06.224 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+11:20:11.523 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://app-automate.browserstack.com/dashboard/v2/builds/e51648440f44e4dd28e6485d150b3dca7f1426d3
+11:20:11.523 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+11:21:35.525 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled because framework detected is null. We currently support frameworks testng, cucumber-testng & serenity
+11:22:26.177 [main] DEBUG c.browserstack.utils.LogReportingAPI - 
+[2024-11-05T07:22:26.160806Z][ OBSERVABILITY ] Exception in populating data for Test Disabled : java.lang.NullPointerException: Cannot invoke "String.contains(java.lang.CharSequence)" because the return value of "com.browserstack.config.BrowserStackConfig.getFramework()" is null
+	at com.browserstack.testNgListeners.TmpSuiteListener.onFinish(Unknown Source)
+	at org.testng.TestRunner.fireEvent(TestRunner.java:873)
+	at org.testng.TestRunner.afterRun(TestRunner.java:828)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+
+
+11:22:27.269 [main] DEBUG c.b.utils.FunnelInstrumentation - API Event Observability_Crash_Report_Upload response - OK
+01:43:56.480 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled because framework detected is null. We currently support frameworks testng, cucumber-testng & serenity
+02:09:52.042 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled because framework detected is null. We currently support frameworks testng, cucumber-testng & serenity

@@ -24,7 +24,7 @@ public class appiumbasetest extends BaseTest {
 		driver.findElements(AppiumBy.className("android.widget.Button")).get(1).click();
 	}
 	
-	public void longPress()
+	public void longPress()	
 	{
 		driver.findElement(AppiumBy.accessibilityId("Views")).click();;
 		driver.findElement(AppiumBy.accessibilityId("Expandable Lists")).click();

@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="Default test(failed)">
+<suite thread-count="3" parallel="tests" name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="3" name="Default test-2(failed)">
+    <parameter name="platform" value="2"/>
     <classes>
       <class name="MargoExpress.Mobile.Ecommerce_Tc_4_Hybrid">
         <methods>
@@ -11,5 +12,29 @@
         </methods>
       </class> <!-- MargoExpress.Mobile.Ecommerce_Tc_4_Hybrid -->
     </classes>
-  </test> <!-- Default test(failed) -->
+  </test> <!-- Default test-2(failed) -->
+  <test thread-count="3" name="Default test-0(failed)">
+    <parameter name="platform" value="0"/>
+    <classes>
+      <class name="MargoExpress.Mobile.Ecommerce_Tc_4_Hybrid">
+        <methods>
+          <include name="teardown"/>
+          <include name="verifyProductsAddedinCart"/>
+          <include name="ConfigureAppium"/>
+        </methods>
+      </class> <!-- MargoExpress.Mobile.Ecommerce_Tc_4_Hybrid -->
+    </classes>
+  </test> <!-- Default test-0(failed) -->
+  <test thread-count="3" name="Default test-1(failed)">
+    <parameter name="platform" value="1"/>
+    <classes>
+      <class name="MargoExpress.Mobile.Ecommerce_Tc_4_Hybrid">
+        <methods>
+          <include name="teardown"/>
+          <include name="verifyProductsAddedinCart"/>
+          <include name="ConfigureAppium"/>
+        </methods>
+      </class> <!-- MargoExpress.Mobile.Ecommerce_Tc_4_Hybrid -->
+    </classes>
+  </test> <!-- Default test-1(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
